@@ -1,0 +1,395 @@
+@import('nib')
+
+
+amarillo = #FFFF01
+
+
+body
+	margin 0
+	padding 0
+	font-size 16px
+
+figure
+	margin 0
+.content
+	max-width 80%
+	margin 0 auto
+
+.header
+	display flex
+	justify-content space-between
+	align-items flex-end
+	width 100%
+	position relative
+.nav
+	padding 0 100px
+	&-list
+		display flex
+		list-style none
+		justify-content center
+		padding 0
+		margin 10px 0
+		&-item
+			margin-right 70px
+			&:last-child
+				margin-right 0
+			a
+				color #222
+				text-decoration none
+				display flex
+				flex-direction column
+				justify-content center
+				align-items center
+				text-shadow 0 0 1px amarillo
+				div
+					border-top 1px solid skyblue
+					border-left 1px solid skyblue 
+					border-right 4px solid skyblue 
+					border-bottom 3px solid skyblue 
+					padding 25px 20px
+					border-radius 2px
+					font-size 1.2em
+					display flex
+					flex-direction column
+					align-items center
+					justify-content center
+					width auto
+					width 75px
+					height 85px
+					
+					img
+						width 96%
+						height 100%
+						margin 5px
+					
+					
+					
+.header-info
+	display flex 
+	align-items center
+	justify-content center
+	font-size 25px
+	line-height 20px
+	margin-top 20px
+	
+	p
+		margin 0
+		text-align center
+	p:first-child
+		display flex
+		flex-direction column
+		justify-content center
+		align-items center
+		span
+			color #444
+			&:last-child
+				color #000
+				font-weight bold
+		
+	p:last-child
+		margin 0					
+					
+
+
+.section
+	margin 0
+	&-intro
+		padding 10px
+		display flex
+		justify-content center
+		align-items center
+		&-img
+			width 300px
+			height 300px
+			border-radius 50%
+			border 1px solid lightgray
+		&-text
+			width 650px
+			font-size 20px
+			line-height 28px
+			
+	&-images
+		margin 100px 0
+		display flex
+		justify-content center
+		&-item
+			margin 10px 30px
+			width 200px
+			height 200px
+			border 1px solid lightgray
+			border-radius 50%
+	&-more
+		padding 10px
+		display flex
+		justify-content center
+		align-items center
+		
+		&-img
+			width 300px
+			height 300px
+			border-radius 50%
+			border 1px solid lightgray
+		&-text
+			width 650px
+			font-size 20px
+			line-height 28px
+			
+
+.logo
+	width 110px
+	height 95px
+	margin 0
+	img
+		width 100%
+		height 100%
+
+
+
+
+
+
+
+
+
+
+
+
+.logo-sm
+	display flex
+	font-family 'PT Sans', sans-serif
+	font-weight 700
+	margin 0
+	.E
+		font-size 80px
+	.cinco
+		font-size 80px
+		text-shadow 0 0 1px gray
+		transform rotate(-15deg)
+		margin-left -12px	
+		margin-top -6px
+		
+.logo-full
+	display flex
+	align-items flex-end
+	
+	font-family 'PT Sans', sans-serif
+	font-weight 700
+	margin 0
+	.E
+		font-size 80px
+	.cinco
+		font-size 80px
+		
+		text-shadow 0 0 1px gray
+		transform rotate(-15deg)
+		margin-left -10px	
+		margin-top -6px
+.pacios
+	color gray	
+	font-size 3.8em
+	margin 0 !important
+	position relative
+	top -8px
+	left -6px
+
+	
+.footer
+	font-size 16px
+	color gray
+	background #fff
+	height 80px
+	width 100%
+	border-bottom 3px solid #000
+	border-left 3px solid #000
+	display flex
+	align-items flex-end
+	justify-content space-between
+	position relative
+	top 15px
+	&-logo
+		margin 0
+		display flex
+		font-size .8em
+		&-img
+			width 5em
+			margin 0
+			margin-top .6em 
+			img
+				width 100%
+		&-pacios
+			font-size 5.5em
+			margin 0 
+			font-family arial
+			color black
+	.phrase
+		font-size 1.5em
+
+	
+// viernes 23 baile
+// sabado 24 toros  veer si beto durann da de comer y toros
+// domingo 25 toros y baile  corrida de chava patrocinado. sereno.
+// cobrar 20 a los hombres con bracaletes para los toros y bailes
+// viernes en baile norteno ruiz, sabado toros ver crisol.
+// jinetes con beto dura
+// lupe corona tesorera pricila
+
+
+
+//COLORS
+.color-amarillo
+	color amarillo			
+//FLEXS
+
+.flex
+	display flex
+	
+.flex-column
+	
+	flex-direction column
+
+.flex-spaced
+	justify-content space-between
+
+	
+.flex-center
+	justify-content center
+
+
+.flex-center-all
+	justify-content center
+	align-items center
+
+
+.piramid
+	width 100%
+	height 290px
+	position relative
+	top 5px
+	// border 1px solid green
+	&-1
+		width 105%
+		height 77px
+		border 1px solid gray
+		background yellow
+		position absolute
+		bottom 0
+		left -4px
+		
+	&-2
+		width 47px
+		height 47px
+		border 1px solid gray
+		background yellow
+		position absolute
+		bottom 86px
+		left 8px
+		
+	&-3
+		width 43px
+		height 43px
+		border 1px solid gray
+		background yellow
+		position absolute
+		bottom 95px
+		right 5px
+		
+	&-4
+		width 38px
+		height 38px
+		border 1px solid gray
+		background yellow
+		position absolute
+		bottom 141px
+		left 21px
+	&-5
+		width 30px
+		height 30px
+		border 1px solid gray
+		background yellow
+		position absolute
+		bottom 153px
+		right 16px
+	&-6
+		width 28px
+		height 28px
+		border 1px solid gray
+		background yellow
+		position absolute
+		bottom 189px
+		left 15px
+	&-7
+		width 27px
+		height 27px
+		border 1px solid gray
+		background yellow
+		position absolute
+		bottom 193px
+		right 39px
+	&-8
+		width 23px
+		height 23px
+		border 1px solid gray
+		background yellow
+		position absolute
+		bottom 229px
+		left 30px
+	&-9
+		width 14px
+		height 14px
+		border 1px solid gray
+		background yellow
+		position absolute
+		bottom 260px
+		left 45px
+	&-10
+		width 8px
+		height 8px
+		border 1px solid gray
+		background yellow
+		position absolute
+		bottom 282px
+		right 55px
+
+//FONTS
+
+.font30
+	font-size 30px !important
+.name
+	text-transform uppercase
+
+//MARGINS
+.margin0
+	margin 0 !important
+	
+.margin5
+	margin 5px
+.margin2
+	margin 2px
+	
+.margin-top40
+	margin-top 40px
+.font-size11
+	font-size 11px
+.hide
+	display none
+.flex-spaced
+	justify-content space-between
+.border-bottom
+	width 100%
+	height 3px
+	background #000
+	position absolute
+	left 0
+	bottom -2px
+.border-left
+	width 3px
+	height 110%
+	background #000
+	position absolute
+	left 0
+	bottom -2px
+	
+.width90
+	width 90%
+	margin 0 auto
+	
