@@ -2,6 +2,10 @@
 
 
 amarillo = #FFFF01
+color-agua = #00C5FF
+color-aire = #80A9BC
+color-fuego = #FF5100
+color-madera = #00B200
 
 
 body
@@ -16,11 +20,15 @@ figure
 	margin 0 auto
 
 .header
-	display flex
-	justify-content space-between
-	align-items flex-end
+	
 	width 100%
 	position relative
+	&-content
+		width 97%
+		margin 0 auto
+		display flex
+		justify-content space-between
+		align-items center
 .nav
 	padding 0 100px
 	&-list
@@ -70,8 +78,8 @@ figure
 	justify-content center
 	font-size 25px
 	line-height 20px
-	margin-top 20px
-	
+	hr
+		margin 8px 0
 	p
 		margin 0
 		text-align center
@@ -171,58 +179,44 @@ figure
 .logo-full
 	display flex
 	align-items flex-end
-	
 	font-family 'PT Sans', sans-serif
 	font-weight 700
 	margin 0
+	font-size 1.4em
 	.E
-		font-size 80px
+		font-size 4.36em !important
+		margin 0 !important
+		position relative
+		top .036em
 	.cinco
-		font-size 80px
-		
-		text-shadow 0 0 1px gray
+		font-size 4.3em
+		line-height 1em
+		text-shadow 2px 0 5px gray
 		transform rotate(-15deg)
-		margin-left -10px	
-		margin-top -6px
-.pacios
-	color gray	
-	font-size 3.8em
-	margin 0 !important
-	position relative
-	top -8px
-	left -6px
-
-	
-.footer
-	font-size 16px
-	color gray
-	background #fff
-	height 80px
-	width 100%
-	border-bottom 3px solid #000
-	border-left 3px solid #000
-	display flex
+		position relative
+		left -.065em
+		top -.12em
+		
+	.pacios
+		font-size 4em
+		position relative
+		right .13em
+footer.header
+	font-size 1.2em !important
 	align-items flex-end
-	justify-content space-between
-	position relative
-	top 15px
-	&-logo
-		margin 0
-		display flex
-		font-size .8em
-		&-img
-			width 5em
-			margin 0
-			margin-top .6em 
-			img
-				width 100%
-		&-pacios
-			font-size 5.5em
-			margin 0 
-			font-family arial
-			color black
+	.border-left
+		height 105px
+	.border-bottom
+		width 130px
 	.phrase
-		font-size 1.5em
+		font-size .8em
+		
+	.logo-full
+		position relative
+		top .8em
+		left -.3em
+	.header-content
+		align-items flex-end
 
 	
 // viernes 23 baile
@@ -269,7 +263,7 @@ figure
 	&-1
 		width 105%
 		height 77px
-		border 1px solid gray
+		border 1px solid #e2e2e2
 		background yellow
 		position absolute
 		bottom 0
@@ -278,7 +272,7 @@ figure
 	&-2
 		width 47px
 		height 47px
-		border 1px solid gray
+		border 1px solid #e2e2e2
 		background yellow
 		position absolute
 		bottom 86px
@@ -287,7 +281,7 @@ figure
 	&-3
 		width 43px
 		height 43px
-		border 1px solid gray
+		border 1px solid #e2e2e2
 		background yellow
 		position absolute
 		bottom 95px
@@ -296,7 +290,7 @@ figure
 	&-4
 		width 38px
 		height 38px
-		border 1px solid gray
+		border 1px solid #e2e2e2
 		background yellow
 		position absolute
 		bottom 141px
@@ -304,7 +298,7 @@ figure
 	&-5
 		width 30px
 		height 30px
-		border 1px solid gray
+		border 1px solid #e2e2e2
 		background yellow
 		position absolute
 		bottom 153px
@@ -312,7 +306,7 @@ figure
 	&-6
 		width 28px
 		height 28px
-		border 1px solid gray
+		border 1px solid #e2e2e2
 		background yellow
 		position absolute
 		bottom 189px
@@ -320,7 +314,7 @@ figure
 	&-7
 		width 27px
 		height 27px
-		border 1px solid gray
+		border 1px solid #e2e2e2
 		background yellow
 		position absolute
 		bottom 193px
@@ -328,7 +322,7 @@ figure
 	&-8
 		width 23px
 		height 23px
-		border 1px solid gray
+		border 1px solid #e2e2e2
 		background yellow
 		position absolute
 		bottom 229px
@@ -336,7 +330,7 @@ figure
 	&-9
 		width 14px
 		height 14px
-		border 1px solid gray
+		border 1px solid #e2e2e2
 		background yellow
 		position absolute
 		bottom 260px
@@ -344,7 +338,7 @@ figure
 	&-10
 		width 8px
 		height 8px
-		border 1px solid gray
+		border 1px solid #e2e2e2
 		background yellow
 		position absolute
 		bottom 282px
@@ -388,8 +382,25 @@ figure
 	position absolute
 	left 0
 	bottom -2px
+.back-element-madera
+	background color-madera
+
+.back-element-fuego
+	background color-fuego
+
+.back-element-agua
+	background color-agua
+
+.back-element-aire
+	background color-aire
 	
-.width90
+
+
+.gridy
+	background url('http://html.webtemplatemasters.com/engorgio/js/sequence/overlay-pattern.png')
 	width 90%
-	margin 0 auto
+	height 90%
+	display inline-block
+	
+	
 	

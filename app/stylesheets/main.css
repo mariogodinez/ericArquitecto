@@ -11,6 +11,12 @@ figure {
   margin: 0 auto;
 }
 .header {
+  width: 100%;
+  position: relative;
+}
+.header-content {
+  width: 97%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -23,14 +29,12 @@ figure {
   -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
   justify-content: space-between;
-  -webkit-box-align: end;
-  -moz-box-align: end;
-  -o-box-align: end;
-  -ms-flex-align: end;
-  -webkit-align-items: flex-end;
-  align-items: flex-end;
-  width: 100%;
-  position: relative;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 .nav {
   padding: 0 100px;
@@ -150,7 +154,9 @@ figure {
   justify-content: center;
   font-size: 25px;
   line-height: 20px;
-  margin-top: 20px;
+}
+.header-info hr {
+  margin: 8px 0;
 }
 .header-info p {
   margin: 0;
@@ -334,84 +340,62 @@ figure {
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   margin: 0;
+  font-size: 1.4em;
 }
 .logo-full .E {
-  font-size: 80px;
+  font-size: 4.36em !important;
+  margin: 0 !important;
+  position: relative;
+  top: 0.036em;
 }
 .logo-full .cinco {
-  font-size: 80px;
-  text-shadow: 0 0 1px #808080;
+  font-size: 4.3em;
+  line-height: 1em;
+  text-shadow: 2px 0 5px #808080;
   -webkit-transform: rotate(-15deg);
   -moz-transform: rotate(-15deg);
   -o-transform: rotate(-15deg);
   -ms-transform: rotate(-15deg);
   transform: rotate(-15deg);
-  margin-left: -10px;
-  margin-top: -6px;
-}
-.pacios {
-  color: #808080;
-  font-size: 3.8em;
-  margin: 0 !important;
   position: relative;
-  top: -8px;
-  left: -6px;
+  left: -0.065em;
+  top: -0.12em;
 }
-.footer {
-  font-size: 16px;
-  color: #808080;
-  background: #fff;
-  height: 80px;
-  width: 100%;
-  border-bottom: 3px solid #000;
-  border-left: 3px solid #000;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: box;
-  display: flex;
+.logo-full .pacios {
+  font-size: 4em;
+  position: relative;
+  right: 0.13em;
+}
+footer.header {
+  font-size: 1.2em !important;
   -webkit-box-align: end;
   -moz-box-align: end;
   -o-box-align: end;
   -ms-flex-align: end;
   -webkit-align-items: flex-end;
   align-items: flex-end;
-  -webkit-box-pack: justify;
-  -moz-box-pack: justify;
-  -o-box-pack: justify;
-  -ms-flex-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-  position: relative;
-  top: 15px;
 }
-.footer-logo {
-  margin: 0;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: box;
-  display: flex;
+footer.header .border-left {
+  height: 105px;
+}
+footer.header .border-bottom {
+  width: 130px;
+}
+footer.header .phrase {
   font-size: 0.8em;
 }
-.footer-logo-img {
-  width: 5em;
-  margin: 0;
-  margin-top: 0.6em;
+footer.header .logo-full {
+  position: relative;
+  top: 0.8em;
+  left: -0.3em;
 }
-.footer-logo-img img {
-  width: 100%;
-}
-.footer-logo-pacios {
-  font-size: 5.5em;
-  margin: 0;
-  font-family: arial;
-  color: #000;
-}
-.footer .phrase {
-  font-size: 1.5em;
+footer.header .header-content {
+  -webkit-box-align: end;
+  -moz-box-align: end;
+  -o-box-align: end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
 }
 .color-amarillo {
   color: #ffff01;
@@ -471,7 +455,7 @@ figure {
 .piramid-1 {
   width: 105%;
   height: 77px;
-  border: 1px solid #808080;
+  border: 1px solid #e2e2e2;
   background: #ff0;
   position: absolute;
   bottom: 0;
@@ -480,7 +464,7 @@ figure {
 .piramid-2 {
   width: 47px;
   height: 47px;
-  border: 1px solid #808080;
+  border: 1px solid #e2e2e2;
   background: #ff0;
   position: absolute;
   bottom: 86px;
@@ -489,7 +473,7 @@ figure {
 .piramid-3 {
   width: 43px;
   height: 43px;
-  border: 1px solid #808080;
+  border: 1px solid #e2e2e2;
   background: #ff0;
   position: absolute;
   bottom: 95px;
@@ -498,7 +482,7 @@ figure {
 .piramid-4 {
   width: 38px;
   height: 38px;
-  border: 1px solid #808080;
+  border: 1px solid #e2e2e2;
   background: #ff0;
   position: absolute;
   bottom: 141px;
@@ -507,7 +491,7 @@ figure {
 .piramid-5 {
   width: 30px;
   height: 30px;
-  border: 1px solid #808080;
+  border: 1px solid #e2e2e2;
   background: #ff0;
   position: absolute;
   bottom: 153px;
@@ -516,7 +500,7 @@ figure {
 .piramid-6 {
   width: 28px;
   height: 28px;
-  border: 1px solid #808080;
+  border: 1px solid #e2e2e2;
   background: #ff0;
   position: absolute;
   bottom: 189px;
@@ -525,7 +509,7 @@ figure {
 .piramid-7 {
   width: 27px;
   height: 27px;
-  border: 1px solid #808080;
+  border: 1px solid #e2e2e2;
   background: #ff0;
   position: absolute;
   bottom: 193px;
@@ -534,7 +518,7 @@ figure {
 .piramid-8 {
   width: 23px;
   height: 23px;
-  border: 1px solid #808080;
+  border: 1px solid #e2e2e2;
   background: #ff0;
   position: absolute;
   bottom: 229px;
@@ -543,7 +527,7 @@ figure {
 .piramid-9 {
   width: 14px;
   height: 14px;
-  border: 1px solid #808080;
+  border: 1px solid #e2e2e2;
   background: #ff0;
   position: absolute;
   bottom: 260px;
@@ -552,7 +536,7 @@ figure {
 .piramid-10 {
   width: 8px;
   height: 8px;
-  border: 1px solid #808080;
+  border: 1px solid #e2e2e2;
   background: #ff0;
   position: absolute;
   bottom: 282px;
@@ -606,7 +590,21 @@ figure {
   left: 0;
   bottom: -2px;
 }
-.width90 {
+.back-element-madera {
+  background: #00b200;
+}
+.back-element-fuego {
+  background: #ff5100;
+}
+.back-element-agua {
+  background: #00c5ff;
+}
+.back-element-aire {
+  background: #80a9bc;
+}
+.gridy {
+  background: url("http://html.webtemplatemasters.com/engorgio/js/sequence/overlay-pattern.png");
   width: 90%;
-  margin: 0 auto;
+  height: 90%;
+  display: inline-block;
 }
