@@ -374,12 +374,13 @@ footer.header {
   -ms-flex-align: end;
   -webkit-align-items: flex-end;
   align-items: flex-end;
+  margin: 25px auto;
 }
 footer.header .border-left {
-  height: 105px;
+  height: 100px;
 }
 footer.header .border-bottom {
-  width: 130px;
+  width: 120px;
 }
 footer.header .phrase {
   font-size: 0.8em;
@@ -601,6 +602,15 @@ footer.header .header-content {
 }
 .back-element-aire {
   background: #80a9bc;
+}
+.footer-logo {
+  width: 100px;
+  height: 90px;
+  margin-bottom: 10px;
+}
+.footer-logo img {
+  width: 100%;
+  height: 100%;
 }
 .gridy {
   background: url("http://html.webtemplatemasters.com/engorgio/js/sequence/overlay-pattern.png");
