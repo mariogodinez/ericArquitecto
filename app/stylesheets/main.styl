@@ -16,7 +16,7 @@ body
 figure
 	margin 0
 .content
-	max-width 80%
+	max-width 1000px
 	margin 0 auto
 
 .header
@@ -50,10 +50,10 @@ figure
 				align-items center
 				text-shadow 0 0 1px amarillo
 				div
-					border-top 1px solid skyblue
-					border-left 1px solid skyblue 
-					border-right 4px solid skyblue 
-					border-bottom 3px solid skyblue 
+					border-top 1px solid gray
+					border-left 1px solid gray 
+					border-right 4px solid gray 
+					border-bottom 3px solid gray 
 					padding 25px 20px
 					border-radius 2px
 					font-size 1.2em
@@ -69,6 +69,10 @@ figure
 						width 96%
 						height 100%
 						margin 5px
+						filter grayscale(50%)
+						&:hover
+							filter grayscale(10%)
+							
 					
 					
 					
@@ -104,7 +108,7 @@ figure
 	&-intro
 		padding 10px
 		display flex
-		justify-content center
+		justify-content space-between
 		align-items center
 		&-img
 			width 300px
@@ -115,6 +119,7 @@ figure
 			width 650px
 			font-size 20px
 			line-height 28px
+			text-align justify
 			
 	&-images
 		margin 100px 0
@@ -151,7 +156,14 @@ figure
 		width 100%
 		height 100%
 
-
+.section-title
+	background #f1f2f2
+	display flex
+	justify-content center
+	&-item
+		border-bottom 1px solid gray
+		text-align center
+		display inline-block
 
 
 
@@ -210,7 +222,7 @@ footer.header
 	.border-bottom
 		width 120px
 	.phrase
-		font-size .8em
+		font-size 1em
 		
 	.logo-full
 		position relative
@@ -403,7 +415,8 @@ footer.header
 	img
 		width 100%
 		height 100%
-
+.margin50-0
+	margin 50px 0
 
 .gridy
 	background url('http://html.webtemplatemasters.com/engorgio/js/sequence/overlay-pattern.png')

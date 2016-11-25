@@ -7,7 +7,7 @@ figure {
   margin: 0;
 }
 .content {
-  max-width: 80%;
+  max-width: 1000px;
   margin: 0 auto;
 }
 .header {
@@ -92,10 +92,10 @@ figure {
   text-shadow: 0 0 1px #ffff01;
 }
 .nav-list-item a div {
-  border-top: 1px solid #87ceeb;
-  border-left: 1px solid #87ceeb;
-  border-right: 4px solid #87ceeb;
-  border-bottom: 3px solid #87ceeb;
+  border-top: 1px solid #808080;
+  border-left: 1px solid #808080;
+  border-right: 4px solid #808080;
+  border-bottom: 3px solid #808080;
   padding: 25px 20px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
@@ -132,6 +132,10 @@ figure {
   width: 96%;
   height: 100%;
   margin: 5px;
+  filter: grayscale(50%);
+}
+.nav-list-item a div img:hover {
+  filter: grayscale(10%);
 }
 .header-info {
   display: -webkit-box;
@@ -209,12 +213,12 @@ figure {
   display: -ms-flexbox;
   display: box;
   display: flex;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  -o-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
   -webkit-box-align: center;
   -moz-box-align: center;
   -o-box-align: center;
@@ -233,6 +237,7 @@ figure {
   width: 650px;
   font-size: 20px;
   line-height: 28px;
+  text-align: justify;
 }
 .section-images {
   margin: 100px 0;
@@ -298,6 +303,26 @@ figure {
 .logo img {
   width: 100%;
   height: 100%;
+}
+.section-title {
+  background: #f1f2f2;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.section-title-item {
+  border-bottom: 1px solid #808080;
+  text-align: center;
+  display: inline-block;
 }
 .logo-sm {
   display: -webkit-box;
@@ -383,7 +408,7 @@ footer.header .border-bottom {
   width: 120px;
 }
 footer.header .phrase {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 footer.header .logo-full {
   position: relative;
@@ -612,6 +637,9 @@ footer.header .header-content {
 .footer-logo img {
   width: 100%;
   height: 100%;
+}
+.margin50-0 {
+  margin: 50px 0;
 }
 .gridy {
   background: url("http://html.webtemplatemasters.com/engorgio/js/sequence/overlay-pattern.png");
